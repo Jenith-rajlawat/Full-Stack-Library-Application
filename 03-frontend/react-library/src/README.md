@@ -1,4 +1,5 @@
-# For navbar bootstrap classes
+# Bootstrap classes (Documentation)
+## Navbar
 navbar: This is the base class for creating a navigation bar in Bootstrap. It sets up the basic styling and structure for the navbar.
 
 navbar-expand-lg: This class specifies how the navbar behaves when the screen size changes. In this case, it indicates that the navbar should expand (show the navigation links) when the screen width is equal to or greater than the "lg" (large) breakpoint.
