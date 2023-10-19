@@ -7,9 +7,14 @@ function App() {
     <nav className='navbar navbar-expand-lg navbar-dark main-color py-3'>
 
       <div className='container-fluid'>
+        {/* When you view this example in a web browser, you'll see that
+         the first div with container-fluid expands to the full width of the screen,
+          while the second div with the standard container class is centered with fixed width,
+           as per Bootstrap's default behavior. This demonstrates the difference between container-fluid 
+           and the regular container. */}
 
 
-        <span className='navbar-brand'>Luv 2 Read</span>
+        <span className='navbar-brand'>Bibliophile</span>
         <button className='navbar-toggler' type='button'
           data-bs-toggle='collapse' data-bs-target='#navbarNavDropdown'
           aria-controls='navbarNavDropdown' aria-expanded='false'
