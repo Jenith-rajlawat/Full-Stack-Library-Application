@@ -3,7 +3,7 @@
 ``` Java, React JS, Spring Boot, Spring Boot Security, Springboot JPA ```
 
 ## Intorduction
-This repo is to learn full stack development through Java(Spring Boot) in backend and using React JS in front end.
+This repo is to learn full stack development through Java(Spring Boot) in backend and using React JS in front end. (FULLSTACK)
 
 ## Running the project
   TO BE UPDATED WHEN FINISHED .
