@@ -9,7 +9,6 @@ export const App = () => {
       <NavBar />
       <HomePage />
       <Footer />
-      <Footer />
     </div>
   );
 }

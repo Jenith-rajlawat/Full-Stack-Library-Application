@@ -32,10 +32,10 @@ export const Heros = () => {
 
 
 
-                <div className="row g-0">
+                <div className="row g-0 ">
                     <div className="col-4 col-md-4 container d-flex 
                     justify-content-center align-item-center">
-                        <div className="ml-2">
+                        <div className="mt-5">
                             <h1>Our collection is always changing </h1>
                             <p className="lead">
                                 Try to check in daily as our collection is always changing!
@@ -79,7 +79,7 @@ export const Heros = () => {
                     <div className="m-2">
                         <div className="col-image-right"></div>
                         <div className="mt-2">
-                            <h1>Our collection is always changing </h1>
+                            <h1 >Our collection is always changing </h1>
                             <p className="lead">
                                 Try to check in daily as our collection is always changing!
                                 We work nonstop to provide the most accurate book selection possible

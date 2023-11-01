@@ -10,17 +10,17 @@ export const Carousel = () => {
 
     useEffect(() => {
         const fetchBooks = async () => {
-            const baseUrl: string = "http://localhost:8080/api/books";
+            const baseUrl: string = "http://localhost:8080/api/books"; //url to get all books from the api
 
             const url: string = `${baseUrl}?page=0&size=9`; // to get just 9 books in the home page
 
             const response = await fetch(url); //response keeps the url fetched 
 
             if (!response.ok) {
-                throw new Error('Something went wrong!');
+                throw new Error('Something went wrong!'); // If response is null then the error will be thrown as Something went wrong
             }
 
-            const responseJson = await response.json(); //turnin' into json
+            const responseJson = await response.json(); // Now from the reponse fetched the response is changed to json
 
 
             const responseData = responseJson._embedded.books; //all books in responseData
